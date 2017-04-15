@@ -1,27 +1,27 @@
 console.log(' Front & Back of Cards Have Loaded!');
 
 exports.basicCards = {
-  frontCardOne: 'Who was the first president of the United States?',
-  backCardOne: 'George Washington'
+  frontOne: 'Who was the first president of the United States?',
+  backOne: 'George Washington'
 },
 {
-  frontCardTwo: 'Who was the youngest president?',
-  backCardTwo: 'Theodore Roosevelt, He became president in 1901 @ Age 42.'
+  frontTwo: 'Who was the youngest president?',
+  backTwo: 'Theodore Roosevelt, He became president in 1901 @ Age 42.'
 },
 {
-  frontCardTwo: 'Which president of the united states dated Marilyn Monroe?',
-  backCardTwo: 'John F. Kennedy'
+  frontThree: 'Which president of the united states dated Marilyn Monroe?',
+  backThree: 'John F. Kennedy'
 }
 
 exports.clozeCards = {
-  frontCardOne: '...was the first Batman.',
-  backCardOne: 'Adam West was the first Batman.'
+  frontOne: '...was the first Batman.',
+  backOne: 'Adam West was the first Batman.'
 },
 {
-  frontCardOne: '... played the first James Bond, 007.',
-  backCardOne: 'Barry Nelson played the first James Bond, 007.'
+  frontTwo: '... played the first James Bond, 007.',
+  backTwo: 'Barry Nelson played the first James Bond, 007.'
 },
 {
-  frontCardOne: '... played the first Dr. Who in 1963.',
-  backCardOne: 'William Hartnell played the first Dr. Who in 1963.'
+  frontThree: '... played the first Dr. Who in 1963.',
+  backThree: 'William Hartnell played the first Dr. Who in 1963.'
 }

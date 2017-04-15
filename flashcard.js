@@ -35,26 +35,33 @@ function getInput(cmdInput, args) {
 
 function basicCards(argument) {
 	// basic code goes here
-
-    // constructor function used to create programmer objects
-    function Cards(frontOne, backOne) {
-      this.frontOne = frontOne;
-      this.backOne = backOne;
-    }
-
+    
 }
 
-Cards.prototype.printInfo = function() {
-  console.log("Front: " + this.frontOne + "\nBack: " + this.backOne);
-  console.log("---------------");
-};
+var Cards = function(frontOne, backOne) {
+    this.frontOne = frontOne;
+    this.backOne = backOne;
+    this.frontCardOne = function() {
+        console.log(" Front: " + this.frontOne);
+    }
+}
+
+
+Cards.prototype.frontCardBack = function() {
+    console.log("Back: " + this.backOne);
+}
+
+var frntCrd = new Cards("FRONT OF CARD TO DISPLAY HERE!");
+//var bckCard = new Cards("BACK OF CARD TO DISPLAY HERE!");
+
+frntCrd.frontCardOne();
+
+
 
 function clozeCards(argument) {
 	// cloze code goes here
+
 }
-
-
-
 
 
 

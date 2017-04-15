@@ -4,3 +4,20 @@ node flashcard.js:
 node flashcard.js: 
 node flashcard.js: basic
 node flashcard.js: cloze
+node flashcard.js: basic
+node flashcard.js: basic
+node flashcard.js: basic
+node flashcard.js: basic
+node flashcard.js: basic
+node flashcard.js: basic
+node flashcard.js: basic
+node flashcard.js: cloze
+node flashcard.js: cloze
+node flashcard.js: cloze
+node flashcard.js: basic
+node flashcard.js: cloze
+node flashcard.js: basic
+node flashcard.js: basic
+node flashcard.js: cloze
+node flashcard.js: cloze
+node flashcard.js: basic
